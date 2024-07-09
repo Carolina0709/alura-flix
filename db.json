@@ -3,15 +3,18 @@
     "categories": [
         {
             "id": 1,
-            "name": "Back End"
+            "name": "Back End",
+            "background": "#6BD1FF"
         },
         {
             "id": 2,
-            "name": "Front End"
+            "name": "Front End",
+            "background": "#00C86F"
         },
         {
             "id": 3,
-            "name": "Innovación y Gestión"
+            "name": "Innovación y Gestión",
+            "background": "#FFBA05"
         }
     ],
 
@@ -20,7 +23,7 @@
             "id": 1,
             "titulo": "Spring Framework. ¿Qué es?",
             "category": "Back End",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back1.png",
             "video": "https://www.youtube.com/embed/t-iqt1b2qqk?si=lfk0f6-KxY9OcOjg", 
             "description": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda.",
             "favorite": false
@@ -29,7 +32,7 @@
             "id": 2,
             "titulo": "¿Qué es SQL y NoSQL?",
             "category": "Back End",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back2.png",
             "video": "https://www.youtube.com/embed/cLLKVd5CNLc?si=POZVXUXUqp3qqpQM", 
             "description": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo.",
             "favorite": false
@@ -38,7 +41,7 @@
             "id": 3,
             "titulo": "Simplificando tu código en Java: Conoce los enum",
             "category": "Back End",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back3.png",
             "video": "https://www.youtube.com/embed/EoPvlE85XAQ?si=QALveJDanStC2PMr", 
             "description": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? En este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum.",
             "favorite": false
@@ -47,7 +50,7 @@
             "id": 4,
             "titulo": "Cuándo usar let, var y const?",
             "category": "Front End",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front1.png",
             "video": "https://www.youtube.com/embed/PztCEdIJITY?si=v3Ix2OJ28T1Vzn8I", 
             "description": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript.",
             "favorite": false
@@ -56,7 +59,7 @@
             "id": 5,
             "titulo": "¿Qué es JavaScript?",
             "category": "Front End",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front2.png",
             "video": "https://www.youtube.com/embed/GJfOSoaXk4s?si=h839KMO-DXDhk7ya", 
             "description": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips.",
             "favorite": false
@@ -65,7 +68,7 @@
             "id": 6,
             "titulo": "Equipo Front End",
             "category": "Front End",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front3.png",
             "video": "https://www.youtube.com/embed/rpvrLaBQwgg?si=BWA8J732LR8BM3pZ", 
             "description": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?",
             "favorite": false
@@ -74,7 +77,7 @@
             "id": 7,
             "titulo": "¿Qué son las Soft Skills?",
             "category": "Innovación y Gestión",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/innovacion1.png",
             "video": "https://www.youtube.com/embed/vhwspfvI52k?si=UPmPD8XyOsdWxkdS", 
             "description": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día.",
             "favorite": false
@@ -83,7 +86,7 @@
             "id": 8,
             "titulo": "7 Soft Skills más deseadas por las empresas",
             "category": "Innovación y Gestión",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/innovacion2.png",
             "video": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=BMTU-D48fIQDRO4o", 
             "description": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral.",
             "favorite": false
@@ -92,7 +95,7 @@
             "id": 9,
             "titulo": "¿Qué son las metodologias ágiles?",
             "category": "Innovación y Gestión",
-            "image": "https://www.youtube.com/embed/AG2QssLpQzI?si=6Yn355wcxAqU7_Ld",
+            "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/innovacion3.png",
             "video": "https://www.youtube.com/embed/6N3OkLCfK-0?si=0h2DO_6E1d-vGW5m", 
             "description": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa.",
             "favorite": false
