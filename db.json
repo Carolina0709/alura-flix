@@ -62,7 +62,7 @@
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front2.png",
             "video": "https://www.youtube.com/embed/GJfOSoaXk4s?si=h839KMO-DXDhk7ya", 
             "description": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips.",
-            "favorite": false
+            "favorite": true
         },
         {
             "id": 6,
