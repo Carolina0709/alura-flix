@@ -26,7 +26,7 @@
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back1.png",
             "video": "https://www.youtube.com/embed/t-iqt1b2qqk?si=lfk0f6-KxY9OcOjg", 
             "description": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda.",
-            "favorite": false
+            "favorite": true
         },
         {
             "id": 2,
