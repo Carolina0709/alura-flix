@@ -4,12 +4,12 @@
         {
             "id": 1,
             "name": "Back End",
-            "background": "#6BD1FF"
+            "background": "#00C86F"
         },
         {
             "id": 2,
             "name": "Front End",
-            "background": "#00C86F"
+            "background": "#6BD1FF"
         },
         {
             "id": 3,
