@@ -21,7 +21,7 @@
     "videos": [
         {
             "id": 1,
-            "titulo": "Spring Framework. ¿Qué es?",
+            "title": "Spring Framework. ¿Qué es?",
             "category": "Back End",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back1.png",
             "video": "https://www.youtube.com/embed/t-iqt1b2qqk?si=lfk0f6-KxY9OcOjg", 
@@ -30,7 +30,7 @@
         },
         {
             "id": 2,
-            "titulo": "¿Qué es SQL y NoSQL?",
+            "title": "¿Qué es SQL y NoSQL?",
             "category": "Back End",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back2.png",
             "video": "https://www.youtube.com/embed/cLLKVd5CNLc?si=POZVXUXUqp3qqpQM", 
@@ -39,7 +39,7 @@
         },
         {
             "id": 3,
-            "titulo": "Simplificando tu código en Java: Conoce los enum",
+            "title": "Simplificando tu código en Java: Conoce los enum",
             "category": "Back End",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/back3.png",
             "video": "https://www.youtube.com/embed/EoPvlE85XAQ?si=QALveJDanStC2PMr", 
@@ -48,7 +48,7 @@
         },
         {
             "id": 4,
-            "titulo": "Cuándo usar let, var y const?",
+            "title": "Cuándo usar let, var y const?",
             "category": "Front End",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front1.png",
             "video": "https://www.youtube.com/embed/PztCEdIJITY?si=v3Ix2OJ28T1Vzn8I", 
@@ -57,7 +57,7 @@
         },
         {
             "id": 5,
-            "titulo": "¿Qué es JavaScript?",
+            "title": "¿Qué es JavaScript?",
             "category": "Front End",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front2.png",
             "video": "https://www.youtube.com/embed/GJfOSoaXk4s?si=h839KMO-DXDhk7ya", 
@@ -66,7 +66,7 @@
         },
         {
             "id": 6,
-            "titulo": "Equipo Front End",
+            "title": "Equipo Front End",
             "category": "Front End",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/front3.png",
             "video": "https://www.youtube.com/embed/rpvrLaBQwgg?si=BWA8J732LR8BM3pZ", 
@@ -75,7 +75,7 @@
         },
         {
             "id": 7,
-            "titulo": "¿Qué son las Soft Skills?",
+            "title": "¿Qué son las Soft Skills?",
             "category": "Innovación y Gestión",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/innovacion1.png",
             "video": "https://www.youtube.com/embed/vhwspfvI52k?si=UPmPD8XyOsdWxkdS", 
@@ -84,7 +84,7 @@
         },
         {
             "id": 8,
-            "titulo": "7 Soft Skills más deseadas por las empresas",
+            "title": "7 Soft Skills más deseadas por las empresas",
             "category": "Innovación y Gestión",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/innovacion2.png",
             "video": "https://www.youtube.com/embed/YhR7Zp8NUzE?si=BMTU-D48fIQDRO4o", 
@@ -93,7 +93,7 @@
         },
         {
             "id": 9,
-            "titulo": "¿Qué son las metodologias ágiles?",
+            "title": "¿Qué son las metodologias ágiles?",
             "category": "Innovación y Gestión",
             "image": "https://raw.githubusercontent.com/Carolina0709/alura-flix/main/images/innovacion3.png",
             "video": "https://www.youtube.com/embed/6N3OkLCfK-0?si=0h2DO_6E1d-vGW5m", 
