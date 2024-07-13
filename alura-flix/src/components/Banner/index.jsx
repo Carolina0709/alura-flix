@@ -1,16 +1,20 @@
 import TitleCategory from "../TitleCategory";
+import Image from "../Image";
 import styles from "./Banner.module.css";
+import TruncatedText from "../TruncatedText";
 
-function Banner(){
+function Banner({title, description, category, image, backgroundColor}){
     return(
         <div className={styles.banner}>
-            <div className="container d-md-flex">
-                <div className="container">
-                    <TitleCategory backgroundColor="green" >Front End</TitleCategory>
-                    <h2></h2>
-
+            <div className="container d-md-flex  w-100">
+                <div className={styles.itemBanner}>
+                    <TitleCategory backgroundColor={backgroundColor} >{category}</TitleCategory>
+                    <h2 className={`fs-2 ${styles.title}`}><TruncatedText text={title} maxLength={20} /></h2>
+                    <TruncatedText text={description} maxLength={180} />
                 </div>
-                <div></div>
+                <div className={styles.itemBannerImg}>
+                    <Image src={image} title={title}/>
+                </div>
             </div>
         </div>
     )

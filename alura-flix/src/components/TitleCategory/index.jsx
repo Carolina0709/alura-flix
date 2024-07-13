@@ -6,7 +6,7 @@ function TitleCategory({children, backgroundColor }){
     }
     return(
         <div className={`rounded ${styles.titleCategory}`} style={categoryColor}>
-            <h2 className="fs-2">{children}</h2>
+            <h2 className="fs-6">{children}</h2>
         </div>
     )
 
