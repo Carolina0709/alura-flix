@@ -17,7 +17,7 @@ export const VideoProvider = ({ children }) => {
       const favoritosIniciales = data.filter(video => video.favorite);
       setFavorito(favoritosIniciales);
     };
-
+ 
     loadVideos();
   }, [setFavorito]);
 

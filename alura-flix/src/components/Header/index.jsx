@@ -1,17 +1,22 @@
 import Button from "../Button";
 import styles from "./Header.module.css";
-
+import {Link} from "react-router-dom";
 
 function Header(){
     return(
         <header className={styles.header}>
-            <a href="/">
+            <Link to="/">
                 <img src="/img/logo.png" />
-            </a>
+            </Link>
         
             <div>
-                <Button icon="bi-plus-square" primaryColor="#03122F" textColor="#2271D1">Categoría</Button>
-                <Button icon="bi-plus-square" primaryColor="#03122F" textColor="#ffffff">Video</Button>
+                <Link to="/newCategory">
+                    <Button icon="bi-plus-square" primaryColor="#03122F" textColor="#2271D1">Categoría</Button>
+                </Link>
+                <Link to="/newVideo">
+                    <Button icon="bi-plus-square" primaryColor="#03122F" textColor="#ffffff">Video</Button> 
+                </Link>
+                
             </div>
    
         </header>

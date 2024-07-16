@@ -10,7 +10,7 @@ import { useContext, useState, useEffect } from "react";
 import { updateVideo } from '../../api';
 
 const EditForm = ({ modalContent }) => {
-    const categories = useContext(CategoryContext);
+    const {categories} = useContext(CategoryContext);
     const { setVideos } = useContext(VideoContext);
     const { setFavorito } = useContext(FavoritosContext); 
 
@@ -59,6 +59,14 @@ const EditForm = ({ modalContent }) => {
         }
     };
 
+    const clearForm = () => {
+        setTitle("");
+        setCategory("");
+        setImage("");
+        setVideo("");
+        setDescription("");
+    }
+
     return (
         <>
             <h2 className={styles.formTitle}>Editar video: </h2>
@@ -73,7 +81,10 @@ const EditForm = ({ modalContent }) => {
                     <p className={styles.successMessage}>¡El video ha sido editado!</p>
                 )}
 
-                <Button icon="bi-pencil-fill" primaryColor="#03122F" textColor="#ffffff" type="submit">Editar</Button>
+                <div className={`w-100 d-flex justify-content-end gap-2 ${styles.buttons}`}>
+                    <button className="btn btn-primary" onClick={clearForm} type="button">Limpiar</button>
+                    <Button icon="bi-pencil-fill" primaryColor="transparent" textColor="#3f90f2" type="submit">Editar</Button>
+                </div>
 
             </form>
         </>

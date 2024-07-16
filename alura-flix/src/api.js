@@ -76,3 +76,41 @@ export const createVideo = async (newVideo) => {
         throw error;
     }
 };
+
+const API_CATEGORY_URL = 'https://my-json-server.typicode.com/Carolina0709/alura-flix/categories';
+
+export const fetchCategories = async () => {
+    try {
+        const response = await fetch(API_CATEGORY_URL);
+        if (!response.ok) {
+            throw new Error('Error fetching categories');
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+        return [];
+    }
+};
+
+export const createCategory = async (newCategory) => {
+    try {
+        const response = await fetch(`${API_CATEGORY_URL}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newCategory),
+        });
+
+        if (!response.ok) {
+            throw new Error('Error creating category');
+        }
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
+};

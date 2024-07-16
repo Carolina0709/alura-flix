@@ -11,7 +11,7 @@ const InputSelect = ({label, value, options, required, setCategory}) => {
 				<label >{label}</label>
 				<select value={value} required={required} onChange={handleChange}>
                 {options.map((category) => {
-						return <option key={category.id}>{category.name}</option>
+						return <option key={category.id} value={category.name}>{category.name}</option>
 					})}
 				</select>
 			</div>;

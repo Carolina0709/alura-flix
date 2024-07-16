@@ -30,7 +30,7 @@ function Card({ id, title, category, image, video, description, favorite, backgr
 
   return (
       <div className={`card ${styles.card}`} style={colorCard}>
-        <Image title={title} src={image} />
+        <Image id={id} title={title} src={image} />
         <div className={`card-body ${styles.cardBody}`}>
           {isFavorito ? (
             <i className="bi bi-heart-fill" onClick={handleClick}></i>

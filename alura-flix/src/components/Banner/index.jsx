@@ -3,7 +3,7 @@ import Image from "../Image";
 import styles from "./Banner.module.css";
 import TruncatedText from "../TruncatedText";
 
-function Banner({title, description, category, image, backgroundColor}){
+function Banner({id, title, description, category, image, backgroundColor}){
     return(
         <div className={styles.banner}>
             <div className="container d-md-flex  w-100">
@@ -13,7 +13,7 @@ function Banner({title, description, category, image, backgroundColor}){
                     <TruncatedText text={description} maxLength={180} />
                 </div>
                 <div className={styles.itemBannerImg}>
-                    <Image src={image} title={title}/>
+                    <Image id={id} src={image} title={title}/>
                 </div>
             </div>
         </div>

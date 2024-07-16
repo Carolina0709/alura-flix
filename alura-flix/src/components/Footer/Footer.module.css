@@ -18,9 +18,10 @@
     font-weight: 100;
     letter-spacing: 1px;
 }
-.footer span{
+.footer a{
     color: #ffffff;
     font-weight: 600;
+    text-decoration: none;
 }
 .footer i{
     margin-right: 0.5rem;

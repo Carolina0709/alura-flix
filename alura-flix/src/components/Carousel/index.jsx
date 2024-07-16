@@ -7,7 +7,7 @@ import { useFavoritosContext } from '../../context/favorites';
 function Carousel(){
 
     
-    const categories = useContext(CategoryContext);
+    const {categories} = useContext(CategoryContext);
     const { favorito } = useFavoritosContext(); 
 
     if(favorito.length === 0){
