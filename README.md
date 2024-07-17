@@ -41,6 +41,9 @@ Alura Flix es una plataforma de video que permite a los usuarios explorar y gest
 4. Link del json-server para la API fake
    `https://my-json-server.typicode.com/Carolina0709/alura-flix/`
 
+## Consideraciones
+Ya que el server es un servidor fake las acciones realizadas no tendran permanencia en la aplicación. Asi mismo, solo aquellas cards creadas directamente en el archivo db.json podran ser editadas y eliminadas. 
+
 ## Personas Desarrolladoras
 
 - [Carolina González Martín](https://github.com/Carolina0709)
